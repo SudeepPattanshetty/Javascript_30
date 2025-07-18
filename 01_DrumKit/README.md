@@ -1,7 +1,9 @@
 # Drum Kit (JS30 - Day 1)
 This is a keyboard-driven drum kit built as part of the JavaScript30 challenge by Wes Bos.
 
-##🔥Features
+
+
+## 🔥Features
 
 ⦁	Play sounds using keyboard keys (A, S, D, etc.)
 
@@ -12,7 +14,8 @@ This is a keyboard-driven drum kit built as part of the JavaScript30 challenge b
 ⦁	Event handling: keydown and transitionend
 
 
-##🚀Technologies Used
+
+## 🚀Technologies Used
 
 ⦁	HTML
 
@@ -21,7 +24,8 @@ This is a keyboard-driven drum kit built as part of the JavaScript30 challenge b
 ⦁	JavaScript (Vanilla)
 
 
-##🧠 What I Learned
+
+## 🧠 What I Learned
 ⦁	Using querySelector with attribute selectors
 
 ⦁	Audio playback with audio.play() and currentTime
