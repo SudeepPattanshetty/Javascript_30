@@ -42,4 +42,4 @@ This is a CSS Variables updated with Javascript built as a part of **Javascript3
 
 * Handling real-time events with `mousemove` and `change` to create a responsive UI.
 
-* Strengthened understanding of how JavaScript can bridge user interactions and styling without page reloads.*
+* Strengthened understanding of how JavaScript can bridge user interactions and styling without page reloads.
