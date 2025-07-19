@@ -1,6 +1,6 @@
 # JS + CSS Clock (JS30 - Day 2)
 
-This is a real time clock built as a part of **Javascript30** by Ws Bos (https://javascript30.com)
+This is a real time clock built as a part of **Javascript30** by Wes Bos (https://javascript30.com)
 
 
 
