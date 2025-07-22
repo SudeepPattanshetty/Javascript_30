@@ -1,4 +1,4 @@
-# Array Cardio - Array operations using Javascript (JS30 - Day 5)
+# Array Cardio - Array operations using Javascript (JS30 - Day 4)
 
 
 
