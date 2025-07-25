@@ -1,0 +1,76 @@
+<!-- Day  09 JavaScript DEV Tools -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+  <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular
+    console.log("Hello!");
+
+    // Interpolated
+    console.log('Hello I am a %s string!', 'P');
+ 
+    // Styled
+    console.log('%c I am a some great text', 'font-size: 20x; background: red;');
+
+    // warning!
+    console.warn('OH NOO!');
+
+    // Error :|
+    console.error('SHIT!');
+
+    // Info
+    console.info("Crocodiles eat 2-3 people per year");
+
+    // Testing
+    const p = document.querySelector('p');
+    console.assert(p.classList.add('ouch'), 'That is wrong!')
+
+    // clearing
+    console.clear();
+
+    // Viewing DOM Elements
+    console.dir(p);
+
+    // Grouping together
+    dogs.forEach(dog => {
+        console.groupCollapsed(`${dog.name}`);
+        console.log(`I am ${dog.name}`);
+        console.log(`${dog.name} is ${dog.age} years old`);
+        console.groupEnd(`${dog.name}`);
+    })
+
+    // counting
+    console.count("Webs");
+    console.count("Webs");
+    console.count("Sham");
+    console.count("Sham");
+    console.count("Webs");
+    console.count("Sham");
+    console.count("Sham");
+    console.count("Webs");
+
+    // timing
+    console.time('calculate data');
+    console.log(4+2+3);
+    console.timeEnd('calculate data');
+
+  </script>
+</body>
+</html>
